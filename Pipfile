@@ -5,11 +5,12 @@ verify_ssl = true
 
 [dev-packages]
 setuptools = "*"
+pytest = "*"
 
 [packages]
-todoist-python = "*"
 requests = "*"
 todoist2org = {editable = true,path = "."}
+python-dateutil = "*"
 
 [requires]
 python_version = "3.8"

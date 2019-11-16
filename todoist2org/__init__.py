@@ -1,2 +1,7 @@
+import todoist2org.todoist
+
+
 def main():
-    print("Hello World!")
+    t = todoist.Todoist()
+    t.get_todoist_items()
+    t.gen_org()
